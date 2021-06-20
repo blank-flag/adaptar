@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {margin: 0;padding: 0;}
+html {font-size: 62.5%;}
+body {font: 12px/1.2 system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;color: #333;background-color: #fff;overflow-x: hidden;}
+a{text-decoration: none;cursor:pointer;}
+ul, li {list-style-type: none;}
+input{outline: none;}
+textarea{outline: none;resize:none}
+.clearfix:after {content: "";display: block;visibility: hidden;height: 0;clear: both;}
+h1,h2,h3,h4{font-size:12px; font-weight:normal}

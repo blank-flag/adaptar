@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <style>
+        body{
+            background: #f0f0f0;
+        }
+        /*版心*/
+        .typeArea{width: 6.7708rem;margin: 0 auto;position: relative}
+        .proList{
+            padding:0.651rem 0;
+            background: #fff;
+        }
+        .proList>.typeArea{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .proList>.typeArea>.production{
+            width:1.6042rem;
+            margin-right:0.1042rem;
+            margin-top:0.296875rem;
+        }
+        .proList>.typeArea>.production>.imgContent{
+            width:100%;
+            height:1.09375rem;
+        }
+        .proList>.typeArea>.production>.imgContent>.img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+        .proList>.typeArea>.production>.info{
+            box-sizing: border-box;
+            padding:0.1146rem 0.0417rem 0.1771rem;
+            border-bottom:0.0052rem solid #ddd;
+        }
+        .proList>.typeArea>.production>.info>.title{
+            font-size:0.09375rem;
+            color: #535353;
+        }
+        .proList>.typeArea>.production>.info>.des{
+            font-size:0.0729rem;
+            color: #959595;
+            margin-top:0.078125rem;
+        }
+
+        .proList>.typeArea>.production:nth-child(4n){
+            margin-right:0;
+        }
+        .proList>.typeArea>.production:nth-child(-n+4){
+            margin-top:0;
+        }
+
+        @media(max-width:750px){
+
+            .typeArea{
+                width: 100vw;
+                box-sizing: border-box;
+                padding:5vw;
+            }
+
+            .proList>.typeArea>.production{
+                width:44vw !important;
+                margin-right:2vw !important;
+                margin-top:2vw !important;
+            }
+            .proList>.typeArea>.production>.imgContent{
+                height:44vw;
+            }
+            .proList>.typeArea>.production:nth-child(2n){
+                margin-right:0% !important;
+            }
+            .proList>.typeArea>.production:nth-child(-n+2){
+                margin-top:0% !important;
+            }
+            .proList>.typeArea>.production>.info>.title{
+                font-size:16px;
+            }
+            .proList>.typeArea>.production>.info>.des{
+                font-size:13px;
+            }
+
+
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="proList">
+    <div class="typeArea">
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/otherImg.png" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+    </div>
+</div>
+<script src="js/index.min.js"></script>
+
+</body>
+
+</html>

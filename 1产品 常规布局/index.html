@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <style>
+        body{
+            background: #f0f0f0;
+        }
+        /*版心*/
+        .typeArea{width: 1300px;margin: 0 auto;position: relative}
+        .proList{
+            padding:125px 0;
+            background: #fff;
+        }
+        .proList>.typeArea{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .proList>.typeArea>.production{
+            width:308px;
+            margin-right:20px;
+            margin-top:57px;
+        }
+        .proList>.typeArea>.production>.imgContent{
+            width:100%;
+            height:210px;
+        }
+        .proList>.typeArea>.production>.imgContent>.img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+        .proList>.typeArea>.production>.info{
+            box-sizing: border-box;
+            padding:22px 8px 34px;
+            border-bottom:1px solid #ddd;
+        }
+        .proList>.typeArea>.production>.info>.title{
+            font-size:18px;
+            color: #535353;
+        }
+        .proList>.typeArea>.production>.info>.des{
+            font-size:14px;
+            color: #959595;
+            margin-top:15px;
+        }
+
+        .proList>.typeArea>.production:nth-child(4n){
+            margin-right:0;
+        }
+        .proList>.typeArea>.production:nth-child(-n+4){
+            margin-top:0;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="proList">
+    <div class="typeArea">
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+        <a class="production">
+            <div class="imgContent">
+                <img class="img" src="images/pro1.jpg" alt="">
+            </div>
+            <div class="info">
+                <h3 class="title">家庭影院音响</h3>
+                <p class="des">标准5.1环绕立体声结构音响系统</p>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+</body>
+
+</html>
